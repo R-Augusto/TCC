@@ -1,0 +1,79 @@
+# =========================
+# PYTHON
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# =========================
+# VIRTUAL ENVS
+# =========================
+.env
+.venv/
+venv/
+ENV/
+env/
+.ipynb_checkpoints/
+
+# =========================
+# NOTEBOOKS & CACHE
+# =========================
+*.ipynb_checkpoints
+*.checkpoint.ipynb
+
+# =========================
+# LOGS & TEMP FILES
+# =========================
+*.log
+*.tmp
+*.swp
+*.DS_Store
+
+# =========================
+# DATASETS & PESADOS
+# =========================
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.json
+*.xml
+*.h5
+*.pkl
+*.joblib
+*.rar
+*.zip
+*.tar.gz
+*.7z
+
+# Ignorar pastas grandes (ajuste conforme necessário)
+data/
+dataset/
+datasets/
+images/
+models/
+Nova pasta/
+Desenvolvimento/
+
+# =========================
+# IDEs
+# =========================
+.vscode/
+.idea/
+*.code-workspace
+
+# =========================
+# OUTROS
+# =========================
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tiff
+*.gif
