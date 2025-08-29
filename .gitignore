@@ -2,7 +2,6 @@
 # PYTHON
 # =========================
 __pycache__/
-*.py[cod]
 *.pyo
 *.pyd
 *.so
@@ -19,6 +18,7 @@ __pycache__/
 venv/
 ENV/
 env/
+tcc-env
 .ipynb_checkpoints/
 
 # =========================
@@ -38,7 +38,7 @@ env/
 # =========================
 # DATASETS & PESADOS
 # =========================
-*.csv
+*
 *.tsv
 *.xls
 *.xlsx
@@ -53,13 +53,15 @@ env/
 *.7z
 
 # Ignorar pastas grandes (ajuste conforme necessário)
-data/
+data/images
 dataset/
 datasets/
 images/
 models/
 Nova pasta/
 Desenvolvimento/
+notebooks/
+
 
 # =========================
 # IDEs
